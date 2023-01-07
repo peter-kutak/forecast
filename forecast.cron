@@ -1,0 +1,2 @@
+*/10 * * * * root /usr/bin/python3 /opt/forecast/forecast.py 2>&1 | /usr/bin/logger -t forecast
+
